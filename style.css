@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/*ロゴ*/
+.header_img{
+    width: 300px;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+}
+
+header li{
+    list-style: none;
+    margin-right: 60px;
+}
+
+h1{
+    border-left: 3px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+
+.h1_keiji{
+    width: 65%;
+}
+
+/*記事中身（左側）*/
+main{
+    display: flex;
+    width: 90%;
+}
+
+.left{
+    width:70%;
+}
+
+
+.left{
+    gap: 10px;
+    padding-top: 10px;
+}
+
+
+/*入力フォーム*/
+form {
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    padding-bottom: 60px;
+    padding-left: 32px;
+    margin-bottom: 10px;
+}
+form h2{
+    border-left: 5px solid red;
+    padding-left: 10px;
+}
+
+.submit{
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: #bfbfbf;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
+
+.kiji{
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.kiji h3{
+    padding: 10px 10px 0px 10px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.text, textarea{
+    border: 1px solid #bfbfbf;
+    padding:5px;
+    color: black;
+    background-color: #fff;
+    border-radius: 3px;
+    font-weight: normal;
+}
+
+.contents{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    padding-top: 15px;
+    padding-bottom:15px;
+    background-color: black;
+    color:white;
+    text-align:center;
+}
+
+
+
+
+/*記事中身（右側）*/
+.right{
+    width: 25%;
+    margin-left: 5%;
+}
+
+.right p{
+    padding-left: 20px;
+}
+
+.right h2{
+    border-bottom: 1px solid black;
+}
+
+.famous_article{
+    padding-bottom: 10px;
+
+}
+
+.recomend_link{
+    padding-bottom: 10px;
+}
